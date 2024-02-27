@@ -7,5 +7,6 @@ protoc.main(
         '--python_out=.',
         '--grpc_python_out=.',
         './proto/example.proto',
+        './proto/my.proto',
     )
 )
